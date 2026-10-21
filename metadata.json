@@ -1,0 +1,6 @@
+{
+  "name": "Simple Chess Plus",
+  "description": "Complete, lightweight Android chess app with legal moves, move history, and responsive mobile layout",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
