@@ -1,0 +1,16 @@
+
+name: Check repository files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List root files
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -name package.json
